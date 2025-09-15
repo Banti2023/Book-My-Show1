@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: bms-app
+  namespace: banti
   labels:
     app: bms
 spec:
